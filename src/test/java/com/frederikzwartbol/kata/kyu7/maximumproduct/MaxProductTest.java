@@ -2,12 +2,13 @@ package com.frederikzwartbol.kata.kyu7.maximumproduct;
 
 import org.junit.jupiter.api.Test;
 
-import static org.springframework.test.util.AssertionErrors.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class MaxProductTest {
     MaxProduct m = new MaxProduct();
     private void test(String message, int expected, int actual) {
-        assertEquals(message, expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test

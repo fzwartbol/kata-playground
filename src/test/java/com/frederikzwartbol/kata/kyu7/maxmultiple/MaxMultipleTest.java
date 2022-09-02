@@ -1,15 +1,15 @@
-package com.frederikzwartbol.kata.kyu7.mumbling.maxmultiple;
+package com.frederikzwartbol.kata.kyu7.maxmultiple;
 
 
-import static org.springframework.test.util.AssertionErrors.assertEquals;
-
-import com.frederikzwartbol.kata.kyu7.maxmultiple.MaxMultiple;
 import org.junit.jupiter.api.Test;
+
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class MaxMultipleTest {
     private void test(String message, int expected, int actual) {
-        assertEquals(message, expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test

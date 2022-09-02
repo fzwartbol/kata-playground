@@ -1,11 +1,8 @@
 package com.frederikzwartbol.kata.kyu7.jadencase;
 
-import org.springframework.util.StringUtils;
-
-import java.util.*;
+import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 /** *
  * Your task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
